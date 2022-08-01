@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+body,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(48, 47, 47);
+    color: white !important;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(112, 0, 6, 1) 0%, rgba(128, 0, 7, 1) 0%, rgba(112, 0, 6, 1) 70%, rgba(112, 0, 6, 0.9136029411764706) 100%);
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 1em;
+    margin: 0
+}
+
+#btn-excluit {
+    background: rgb(255, 0, 0);
+    font-size: 19px;
+    margin: 0;
+    padding: .31em;
+}
+
+p {
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
+    font-size: 19px;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+button {
+    background: blue;
+    font-size: 19px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: .81em;
+    margin: 0em 0 0 0 0;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 37px;
+}
+
+table {
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+table thead {
+    margin: 0;
+    padding: 0;
+}
+
+table thead tr {
+    margin: 0;
+    padding: 0;
+}
+
+table thead tr th {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.3em;
+    background: linear-gradient(90deg, rgba(112, 0, 6, 1) 0%, rgba(128, 0, 7, 1) 0%, rgba(112, 0, 6, 1) 70%, rgba(112, 0, 6, 0.9136029411764706) 100%);
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 17px;
+}
+
+table tbody tr td {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    background: #1b1b1bc5;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 17px;
+    color: white;
+    border-bottom: 7px solid black;
+}
+
+table thead tr th:nth-of-type(3) {
+    width: 20.3%;
+}
+
+table thead tr th:nth-of-type(4) {
+    width: 33.3%;
+}
+
+.elemento-creat-table2 {
+    margin: 1em auto;
+    padding: 0;
+    width: 100%;
+}
+
+.elemento-creat-table1 {
+    margin: 0 AUTO;
+    padding: 0;
+    width: 80%;
+}
+
+
+/* formulario */
+
+form {
+    width: 60%;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 17px;
+    margin: 0 auto;
+    color: white;
+}
+
+form input {
+    display: block;
+    margin: 0 0 1em 0;
+    padding: .47em;
+    width: 100%;
+    outline: none;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 17px;
+    background: #302b2b;
+    background: transparent;
+    border-bottom: 2px solid black;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+form input:focus {
+    color: rgb(255, 255, 255);
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 17px;
+}
+
+label {
+    text-align: left;
+}
+
+#enviarform {
+    display: block;
+    margin: 1em 0 0 0;
+    padding: .47em;
+    width: 40%;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#model {
+    background: rgba(80, 76, 76, 0.233);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: white;
+    width: 100%;
+}
+
+#flex-d {
+    background: linear-gradient(90deg, rgba(112, 0, 6, 1) 0%, rgba(128, 0, 7, 1) 0%, rgba(112, 0, 6, 1) 70%, rgba(112, 0, 6, 0.9136029411764706) 100%);
+    width: 50%;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 40px black;
+}
+
+h2 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
